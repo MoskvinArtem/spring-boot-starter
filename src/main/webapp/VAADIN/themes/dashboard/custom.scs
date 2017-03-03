@@ -1,0 +1,12 @@
+.disabled-project-panel-color {
+	color: #ff0000;
+}
+
+.v-slot-shutdown-header-color {
+	background-color: red;
+}
+
+.v-caption-shutdown-label-color {
+	color: white;
+	font-weight: bold;
+}

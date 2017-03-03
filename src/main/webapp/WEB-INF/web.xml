@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" metadata-complete="false"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+	<display-name>Back office starter</display-name>
+
+	<context-param>
+		<description>Production mode</description>
+		<param-name>productionMode</param-name>
+		<param-value>${productionMode}</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>admin-servlet</servlet-name>
+		<servlet-class>com.it.bo.server.servlet.AdminServlet</servlet-class>
+		<init-param>
+			<param-name>UI</param-name>
+			<param-value>com.it.bo.server.AdminUI</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>admin-servlet</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>
