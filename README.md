@@ -5,4 +5,4 @@ In order to run from IDE, just run com.it.server.Application as a Java Applicati
 <b>Default username: dev</b> </br>
 <b>Default password: 111111</b> </br>
 
-Read Starter project - documentation.docx for more detailed specification and modules overview
+Read Starter project - documentation.pdf for more detailed specification and modules overview
